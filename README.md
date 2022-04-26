@@ -21,3 +21,5 @@ npm install -D webpack-bundle-analyzer
 
 npm install -D file-loader
 npm install image-webpack-loader
+
+npm install webpack-dev-server -D //With this update, anytime you run the command npm run start:dev from the terminal, the development server will start up. By default, you can view this in your browser at localhost:8080.
