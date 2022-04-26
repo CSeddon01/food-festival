@@ -21,3 +21,5 @@ npm install -D webpack-bundle-analyzer
 
 npm install -D file-loader
 npm install image-webpack-loader
+
+npm install -D webpack-pwa-manifest
