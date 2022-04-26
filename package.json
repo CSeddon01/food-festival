@@ -1,12 +1,13 @@
 {
   "name": "food-festival",
   "version": "1.0.0",
-  "description": "npm init --y\r npm install -D webpack webpack-cli",
-  "main": "index.js",
+  "description": "",
+  "main": "assets/js/script.js",
   "scripts": {
     "webpack": "webpack --watch",
     "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -20,11 +21,15 @@
   },
   "homepage": "https://github.com/CSeddon01/food-festival#readme",
   "devDependencies": {
+    "file-loader": "^6.2.0",
     "webpack": "^5.72.0",
-    "webpack-cli": "^4.9.2"
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "image-webpack-loader": "^8.1.0",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.0",
     "save": "^2.5.0"
