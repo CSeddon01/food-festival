@@ -16,3 +16,4 @@ npm install bootstrap@4.3.1 --save
 npm install popper.js@1.16.0 -- save    //Popper is needed for webpack to work with bootstrap
 
 npm run build
+npm run webpack
