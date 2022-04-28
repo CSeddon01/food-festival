@@ -13,7 +13,8 @@ package.json add:
 npm i jquery
 
 npm install bootstrap@4.3.1 --save
-npm install popper.js@1.16.0 -- save    //Popper is needed for webpack to work with bootstrap
+npm install popper.js@1.16.0 -- save    
+Popper is needed for webpack to work with bootstrap
 
 npm run build
 
@@ -23,7 +24,9 @@ npm install -D webpack-bundle-analyzer
 npm install -D file-loader
 npm install image-webpack-loader
 
-npm install webpack-dev-server -D //With this update, anytime you run the command npm run start:dev from the terminal, the development server will start up. By default, you can view this in your browser at localhost:8080.
-=======
+npm install webpack-dev-server -D 
+With this update, anytime you run the command npm run start:dev from the terminal, the development server will start up.
+By default, you can view this in your browser at localhost:8080.
+
 npm run webpack
 
